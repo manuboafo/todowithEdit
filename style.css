@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* :root{
+ --dark: #
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(159, 182, 243),
+    rgb(79, 71, 189)
+  );
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 3rem;
+  background-color: white;
+  border-radius: 10px;
+  min-width: 350px;
+  /* height: 400px; */
+}
+
+.todo-container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#todo-form {
+  display: flex;
+}
+
+#todo-form input {
+  width: 85%;
+  background-color: aliceblue;
+}
+
+#todo-submit {
+  margin-left: 1rem;
+}
+
+button,
+input {
+  height: 2rem;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(79, 71, 189);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+main {
+  margin: 2rem 0;
+}
+
+.todo-list {
+  margin: 1rem 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+
+}
+
+.todo-text {
+  background-color: aliceblue;
+  width: 75%;
+}
+
+
+.button-todoitem{
+    display: flex;
+}
+
+.delete{
+    margin-left: .5rem;
+}
